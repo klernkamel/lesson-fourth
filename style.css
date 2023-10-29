@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    margin-top: 0;
+}
+
+.main-nav {
+    height: 20px;
+   margin: 0;
+}
+
+.head-cont {
+    border: medium, dashed, red;
+}
+
+.logo-img {
+    width: 100px;
+    height: 25px;
+    margin-left: 1rem;
+}
+
+
+.hypers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --primary: #8e24aa;
+  }
+
+  @media only screen and (prefers-color-scheme: dark) {
+    :root:not([data-theme]) {
+      --primary: #8e24aa;
+      --primary-hover: #9c27b0;
+      --primary-focus: rgba(142, 36, 170, 0.25);
+      --primary-inverse: #FFF;
+    }
+  }
